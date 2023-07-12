@@ -15,7 +15,7 @@ public class SecondLargestElement {
     {
         int largest = Integer.MIN_VALUE;
         int secondLargest = largest;
-        if(array.length == 1)
+        if(array.length < 2)
         {
             return -1;
         }
